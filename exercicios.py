@@ -70,8 +70,7 @@ class MaxMinAverage:
 
     def _read_numbers(self):
         for i in range(1, 11):
-            print(f"Informe o {i}º número: ", end="")
-            number = input()
+            number = input(f"Informe o {i}º número: ")
             self._vector.append(int(number))
 
     def _average(self):
